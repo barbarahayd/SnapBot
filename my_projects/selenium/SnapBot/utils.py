@@ -68,8 +68,6 @@ def take_page_screenshot(driver: webdriver.Firefox, filename: str) -> None:
     """
     driver.save_screenshot(filename)
 
-    #TODO: Implementar a função take_page_screenshot
-
 def close_driver(driver: webdriver.Firefox) -> None:
     """
     Fecha o WebDriver e encerra o navegador.
